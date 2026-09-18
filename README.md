@@ -14,4 +14,14 @@ Push to main to build the static website and deploy it with GitHub Actions. GitH
 
 Website Care: $149/month. Local Growth: $299/month. Growth Plus: $599/month.
 
-Consultation booking and checkout retain their preview states until their destinations are supplied.
+Each plan links to its own live Stripe subscription checkout in the Penguin Investments LLC account:
+
+- Website Care: https://buy.stripe.com/00weV537PdQb5RZdt8aIM01
+- Local Growth: https://buy.stripe.com/00wcMXcIph2ndkr9cSaIM02
+- Growth Plus: https://buy.stripe.com/5kQ28j5fX7rNbcj2OuaIM03
+
+Stripe handles recurring billing and payment details. Account-wide checkout branding is managed in Stripe; these links do not change the account's existing business name.
+
+## Inquiries
+
+Consultation buttons open the inquiry form. FormSubmit delivers inquiries to penguininvestments.david@gmail.com and redirects successful submissions to /thank-you/. Required fields, reCAPTCHA, and a honeypot protect the form. The recipient must activate FormSubmit using its verification email before inquiries can be delivered. A direct email link is also provided.

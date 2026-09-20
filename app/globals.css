@@ -24,3 +24,5 @@ footer{flex-wrap:wrap}.powered-by{flex-basis:100%;width:100%;margin:0;padding-to
 
 .pricing-section{padding-top:0}.pricing-heading{margin-bottom:36px}.pricing-heading h2 em{color:#376f87}.pricing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.pricing-card{border:1px solid var(--border);padding:32px;background:#fff;border-radius:6px}.pricing-card:last-child{background:#d8edf7}.pricing-card h3{font-size:21px;margin:0;font-weight:600}.plan-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin:24px 0 30px}.plan-price strong{font-family:"Barlow Condensed",Impact,sans-serif;font-size:64px;line-height:1}.plan-price span{font-size:14px;color:#526066}.pricing-card .button{width:100%;gap:16px}@media(max-width:1000px){.pricing-card{padding:24px}}@media(max-width:700px){.pricing-grid{grid-template-columns:1fr}}
 .plans-note{margin:22px 0 0;color:#526066;font-size:14px;text-align:center}
+
+footer .footer-brand{display:flex;align-items:center;gap:16px}.footer-mascot{display:block;flex:0 0 auto;width:96px;height:auto;object-fit:contain}@media(max-width:700px){.footer-mascot{width:80px}}
